@@ -8,8 +8,5 @@ services:
 
             - 8080:80
         volumes:
-#            - ./www:/var/www/html/
-#            - ./nginx-sites-available:/etc/nginx/sites-available/
-#            - ./www:/usr/share/nginx/html/
             - ./cep:/usr/share/nginx/html/buscacep/
             - ./cep:/usr/share/nginx/html/
